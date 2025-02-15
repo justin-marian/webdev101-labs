@@ -72,9 +72,9 @@ This lab introduced **asynchronous JavaScript** and **timers**:
 
 ---  
 
-## 🎮 Midterm Project: Sonic Jump Game  
+## 🎮 Midterm Exam: Sonic Jump Game  
 
-As part of the **midterm project**, I developed a **2D platformer game** featuring **Sonic the Hedgehog** 🦔. The game mechanics include **jumping over obstacles**, **dodging phantoms**, and **background switching** to enhance visual appeal.  
+As part of the **midterm exam**, I had to develop a **2D platformer game** featuring **Sonic the Hedgehog** 🦔. The game mechanics include **jumping over obstacles**, **dodging phantoms**, and **background switching** to enhance visual appeal.  
 
 ### 🕹️ How to Play  
 
