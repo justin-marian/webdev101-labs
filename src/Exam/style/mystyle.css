@@ -1,0 +1,142 @@
+/* Reset */
+html, body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    background: black; /* Fallback background */
+}
+
+/* Game Container - Fixed position (not affected by background movement) */
+.game-container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+/* Background Wrapper */
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/backGround1.jpg');
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: moveBackground 60s linear infinite;
+}
+
+/* Background Moving Effect */
+@keyframes moveBackground {
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position-x: -80vw;
+    }
+}
+
+/* Sonic - Fixed in place */
+.sonic {
+    background-image: url('../img/sonicCharacter.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 200px;
+    height: 220px;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Jumping Animation */
+.jump {
+    animation: jump 1s ease-out;
+    background-image: url('../img/sonicJumping.png');
+}
+
+@keyframes jump {
+    0% { bottom: 50px; }
+    50% { bottom: 700px; }
+    100% { bottom: 50px; }
+}
+
+/* Phantom - Moves independently */
+.phantom {
+    background-image: url('../img/phantom.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 140px;
+    height: 160px;
+    right: -140px;
+    transform: scaleX(-1);
+}
+
+/* Phantom Movement - Slower */
+@keyframes movePhantom {
+    from { right: -140px; }
+    to { right: 100vw; }
+}
+
+/* Score and Lives - Fixed Position */
+.score, .lives, .background-label {
+    position: absolute;
+    top: 10px;
+    font-size: 24px;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Score Styling */
+.score {
+    left: 20px;
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    box-shadow: 0px 0px 15px rgba(255, 215, 0, 0.8);
+}
+
+/* Lives Styling */
+.lives {
+    left: 20px;
+    top: 80px;
+    background: linear-gradient(135deg, #32CD32, #228B22);
+    box-shadow: 0px 0px 15px rgba(50, 205, 50, 0.8);
+}
+
+/* Background Label */
+.background-label {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: linear-gradient(135deg, #0950ac, #242fd1);
+    box-shadow: 0px 0px 15px rgba(42, 152, 255, 0.8);
+}
+
+/* Background About - Positioned below the label */
+.background-about {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}

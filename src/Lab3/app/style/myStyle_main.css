@@ -1,0 +1,47 @@
+.center_div{
+    top: 0;
+    left: 0;
+
+    display: inline;
+    position: absolute;
+    margin-left: 25%;
+    
+}
+
+#frame1{
+    border: 3px dotted;
+
+    /* TODO - Set the width and height of the iframes */
+    margin-top: 10vh;
+    margin-left: 5vh;
+
+    width: 45vh;
+    height: 60vh;
+}
+
+#frame2{
+    border: 3px dotted;
+
+    /* TODO - Set the width and height of the iframes */
+    margin-left: 5vh;
+    margin-right: 5vh;
+
+    width: 45vh;
+    height: 60vh;
+
+}
+
+#frame3{
+    border: 3px dotted;
+
+    /* TODO - Set the width and height of the iframes */
+    width: 100vh;
+    height: 60vh;
+
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 2.5vh;
+    
+    position: relative;
+    display: flex;
+}

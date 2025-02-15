@@ -1,0 +1,30 @@
+#fname{
+    /*TODO - change the background color of the 'Name' input */
+    background-color: gray;
+    font-size: larger;
+}
+
+#lname{
+    /*TODO - change the background color of the 'Prenume' input */
+    background-color: gray;
+    font-size: larger;
+}
+
+#facultate{
+    /*TODO - change the background color of the dropdown list */
+    background-color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* add more things if you want to customize it*/
+    padding: 5px 5px;
+    outline: none;
+    font-weight: bold;
+    transform: translate(5%);
+}
+
+.fieldset_style{
+    font: large;
+    background-color: antiquewhite;
+    border-color: brown;
+}
+

@@ -1,0 +1,27 @@
+.imagine{
+
+    /*TODO - add the background image */
+    position: relative;
+    background-image: url('../img/image.jpg');
+    background-size: contain;
+    background-repeat: repeat;
+
+    width: 200%;
+    height: 100vh;
+
+    /*TODO - center the image*/
+    background-position: center;
+    /*TODO - set the size of the image to cover the page */
+    -webkit-animation: loop linear 5s infinite;
+    animation: loop linear 5s infinite;
+    /*TODO - add animation to the image */
+  }
+
+  @keyframes loop {
+    from { 
+      right: 0%;
+    }
+    to { 
+       right: 50%;
+    }
+  }

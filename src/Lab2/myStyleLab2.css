@@ -1,0 +1,142 @@
+body {
+	background-color: bisque;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    padding: 20px;
+    position: relative;
+}
+
+/* HEAD */
+.head {
+	/* TODO - set the head color */
+    background-color: aqua;
+
+	/* TODO - make the man's head like a circle */
+    border-radius: 50%;
+
+    width: 80px;
+    height: 80px;
+
+    /* TODO - put the head of the man in the middle of the page */
+    position: absolute;
+    top: 35px;
+    left: 190px; 
+}
+
+/* BODY */
+.body-type {
+	/* TODO - set the man's body color */
+    background-color: cadetblue;
+
+	/* TODO - set the width and the height of the man's body */
+    width: 100px;
+    height: 180px;
+
+    position: absolute;
+    top: 120px;
+    left: 180px;
+}
+
+/* LEFT HAND */
+.left_hand {
+	/* TODO - set the left hand color */
+    background-color: blue;
+
+    width: 20px;
+    height: 120px;
+
+	/* TODO - modify the display properties of the div */
+    position: absolute;
+
+	/* TODO - set the relative position of the man's left hand to the man's body */
+    top: 120px;
+    left: 160px;
+    
+	/* TODO - set other properties of this animation */
+    animation: animation_1 2.5s infinite;
+    transform-origin: top right;
+}
+
+/* RIGHT HAND */
+.right_hand {
+	/* TODO - set the right hand color */
+    background-color: blue;
+
+    width: 20px;
+    height: 120px;
+
+	/* TODO - modify the display properties of the div */
+    position: absolute;
+
+	/* TODO - set the relative position of the man's right hand to the man's body */
+    top: 120px;
+    left: 280px;
+    
+	/* TODO - set other properties of this animation */
+    animation: animation_2 2.5s infinite;
+    transform-origin: top left;
+}
+
+/* LEGS CONTAINER */
+.legs {
+    width: 100%;
+	height: 150px;
+	text-align: center;
+    position: absolute;
+    top: 300px;
+}
+
+/* LEFT LEG */
+.left_leg {
+	/* TODO - set the left leg color */
+    background-color: black;
+
+    width: 30px;
+    height: 120px;
+
+	/* TODO - modify the display properties of the div */
+    position: absolute;
+    left: 160px;
+}
+
+/* RIGHT LEG */
+.right_leg {
+	/* TODO - set the left leg color */
+    background-color: black;
+
+    width: 30px;
+    height: 120px;
+
+	/* TODO - modify the display properties of the div */
+    position: absolute;
+    left: 230px;
+}
+
+/* LEFT HAND ANIMATION */
+@keyframes animation_1 {
+    /* TODO - make an animation from 0% to 100% */
+    0%{
+        transform: rotate(0deg) translate(0px); 
+    }
+
+    100%{
+        transform: rotate(120deg) translate(0px);
+    }
+}
+
+/* RIGHT HAND ANIMATION */
+@keyframes animation_2 {
+    /* TODO - make an animation with keywords "from" and "to" */
+    from{
+        transform: rotate(5deg) translate(0px); 
+    }
+
+    to{
+        transform: rotate(-15deg) translate(0px); 
+    }
+}
