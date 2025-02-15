@@ -85,11 +85,11 @@ As part of the **midterm project**, I developed a **2D platformer game** featuri
 
 ### 📸 Screenshots  
 
-| **Initial Background** | **Jumping Animation** | **Background Change** | 
+| **Initial Background** | **Jumping Animation** | **Background Change** |
 |------------------------|----------------------|-----------------------|
 | ![Initial Background](./src/Exam/pics/initial_background.png) | ![Jump](./src/Exam/pics/jump_over_ghost.png) | ![Change Background](./src/Exam/pics/change_background.png) |
 
----
+---  
 
 ## 🚀 Extra: Git & Web Development Workflow  
 
