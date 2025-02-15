@@ -72,6 +72,25 @@ This lab introduced **asynchronous JavaScript** and **timers**:
 
 ---  
 
+## 🎮 Midterm Project: Sonic Jump Game  
+
+As part of the **midterm project**, I developed a **2D platformer game** featuring **Sonic the Hedgehog** 🦔. The game mechanics include **jumping over obstacles**, **dodging phantoms**, and **background switching** to enhance visual appeal.  
+
+### 🕹️ How to Play  
+
+- **Press SPACE** to make Sonic **jump**.  
+- **Avoid phantoms**—colliding with them reduces your lives!  
+- **Press "B"** to **change the background dynamically**.  
+- **Survive as long as possible** to achieve a high score.  
+
+### 📸 Screenshots  
+
+| **Initial Background** | **Jumping Animation** | **Background Change** | 
+|------------------------|----------------------|-----------------------|
+| ![Initial Background](./src/Exam/pics/initial_background.png) | ![Jump](./src/Exam/pics/jump_over_ghost.png) | ![Change Background](./src/Exam/pics/change_background.png) |
+
+---
+
 ## 🚀 Extra: Git & Web Development Workflow  
 
 📄 **Course Reference:** [Git Cheat Sheet](docs/git_cheat_sheet.pdf)  
